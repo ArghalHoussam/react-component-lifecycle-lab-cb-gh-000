@@ -9,13 +9,13 @@ class TweetWall extends React.Component {
       tweets: []
     };
   }
-  
+
   componentWillMount() {
       this.setState({
         tweets: this.props.newTweets
       })
   }
-  
+
   // TODO: componentWillMount()
   // TODO: shouldComponentUpdate()
   // TODO: componentWillReceiveProps()
